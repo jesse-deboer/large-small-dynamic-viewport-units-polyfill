@@ -6,7 +6,7 @@ var setVw = function () {
 
     if (document.body) {
         var fixed = document.createElement("div");
-        fixed.style.width = '1px';
+        fixed.style.height = '1px';
         fixed.style.width = '100vw';
         fixed.style.position = 'fixed'
         fixed.style.left = '0';
